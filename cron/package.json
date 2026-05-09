@@ -1,0 +1,26 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon",
+    "build": "yarn tsc",
+    "start": "NODE_ENV=production node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.6.2",
+    "bree": "^9.2.9",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@breejs/ts-worker": "^2.0.0",
+    "nodemon": "^3.1.14"
+  }
+}
